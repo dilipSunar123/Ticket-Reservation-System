@@ -1,0 +1,288 @@
+
+#marq{
+    width:80%;
+    font-size:45px;
+    padding:10px;
+    color:white;
+}
+#address{
+    color:red;
+}
+fieldset{
+    width:10%;
+}
+#welcome{
+    text-decoration:none;
+	color:red;
+}
+#box1{
+    font-size:20px;
+    margin-left:25px;
+    width:30%;
+    height:200px;
+    background:rgba(0,0,0,.4);
+    color:white;
+    border:none;
+    border-radius:10px;
+	transition: width .4s;
+}
+#box1:hover{
+	width:31.5%;
+}
+#box2{
+    font-size:20px;
+    width:40%;
+    color:white;
+    border-radius:10px;
+    border:none;
+    background:rgba(0,0,0,.4);
+	transition: width .4s;
+}
+#box2:hover{
+	width:41.5%;
+}
+#box3{
+    font-size:20px;
+    width:30%;
+    color:white;
+    border-radius:10px;
+    border:none;
+    background:rgba(0,0,0,.4);
+	transition: width .4s;
+}
+#box3:hover{
+	width:31.5%;
+}
+#box4{
+    font-size:20px;
+    width:50%;
+    color:white;
+    border-radius:10px;
+    border:none;
+    background:rgba(0,0,0,.4);
+}
+#box5{
+    font-size:20px;
+    width:50%;
+    color:white;
+    border-radius:10px;
+    border:none;
+    background:rgba(0,0,0,.4);
+	transition: width .4s;
+}
+#box5:hover{
+	width:51.5%;
+}
+#box6{
+    font-size:20px;
+    width:50%;
+    color:white;
+    border:none;
+    border-radius:10px;
+    background:rgba(0,0,0,.4);
+	transition: width .4s;
+}
+#box6:hover{
+	width:51.5%;
+}
+#box7{
+    width:50%;
+    background-size:cover;
+    background:rgba(0,0,0,.4);
+    color:white;
+    border:none;
+    border-radius:10px;
+}
+#box8{
+    font-size:20px;
+    width:50%;
+    border-radius:10px;
+    background:rgba(0,0,0,.4);
+    border:none;
+    color:white;
+}
+#box9{
+    width:40%;
+    background:rgba(0,0,0,.4);
+    color:white;
+    border-radius:10px;
+}
+#box10{
+    width:50%;
+    background:rgba(0,0,0,.4);
+    border:none;
+    border-radius: 10px;
+}
+#box11{
+    width:50%;
+    border:none;
+    border-radius:10px;
+    background:rgba(0,0,0,.4);
+}
+#messagebox{
+	width:50%;
+	background:rgba(0,0,0,.4);
+	border-radius:10px;
+	border:none;
+	color:white;
+}
+.menus{
+    text-decoration:none;
+    color:white;
+    font-size:25px;
+    font-weight:bold;
+	transition:all 200ms ease;
+}
+.menus:hover{
+    color:darkgreen;
+    font-size:23px;
+	border-radius:5px;
+	padding: 10px 10px;
+	background:	#ddd;
+}
+#footer{
+    color:grey;
+    float:left;
+    
+}
+.presentPage{
+    color:grey;
+}
+.bookingList{
+    text-decoration:none;
+    color:white;
+    font-size:24px;
+}
+.bookingList:hover{
+    color:#000;
+    font-size:25px;
+}
+#bookingModeBox{
+    width:50%;
+    border:none;
+    border-radius:10px;
+    background:rgba(0,0,0,.4);
+    color:white;
+}
+.star{
+    color:red;
+}
+.fieldtop{
+    background:darkgreen;
+    width:94.4%;
+    border:1px solid black;
+    border-radius:0px;
+    padding:30px;
+    color:white;
+    position:fixed;
+    top:0px;
+	margin-left:-0.2px;
+	margin-right:5px;
+	border:none;
+}
+#dropdown{
+    background-color:#eee;
+}
+.extraOption{
+    text-decoration:none;
+    color:black;
+    font-size:20px;
+}
+#homephoto{
+    background:url('Background//Golden_Passenger_1_0.png') no-repeat center fixed;
+    background-size:cover;
+    width:100%;
+    height:auto;
+	margin:0 auto;
+}
+#ContactUsBackground{
+    background:url('Background//Golden_Passenger_1_0.png') no-repeat center fixed;
+    width:100%;  
+    background-size:cover;
+}
+#BookingBackground{
+    background:url('Background//Golden_Passenger_1_0.png') no-repeat center fixed;
+    background-size:cover;
+    width:100%;
+}
+#gallerybackground{
+    background:url('Background//Golden_Passenger_1_0.png') no-repeat center fixed;
+	background-size:cover;
+	width:100%;
+}
+#helpbackground{
+    background: url('Background//Golden_Passenger_1_0.png') no-repeat center fixed;
+    background-size:cover;
+    
+}
+#AboutUsBackground{
+    background: url('Background//Golden_Passenger_1_0.png') no-repeat center fixed;
+    background-size:cover;
+    width:100%;
+    height:auto;
+}
+#airwaybackground{
+    background:url(Background//index2.jpg) no-repeat center fixed;
+}
+#railwaybackground{
+    background:url('images//r1.jpg') no-repeat center fixed;
+}
+#roadwaybackground{
+    background:url('images//b2.jpg') no-repeat center fixed;
+}
+#waterwaybackground{
+    background:url('Background//ship.jpg') no-repeat center fixed;
+}
+.textboxwater{
+    width:96%;
+}
+.but{
+	width:100px;
+	height:50px;
+	border-radius:10px;
+	font-size:20px;
+	background:rgba(0,0,0,.2);
+	border:none;
+	color:white;
+}
+.tooltip{
+	position:relative;
+	display:inline-block;
+}
+.tooltip .tooltiptext{
+	visibility:hidden;
+	width:120px;
+	background-color:black;
+	color:#fff;
+	text-align:center;
+	padding:5px 0;
+	border-radius:6px;
+	position:absolute;
+	z-index:1;
+}
+.tooltip:hover .tooltiptext{
+	visibility:visible;
+	font-size:20px;
+	width:200px;
+}
+#extraDetails{
+	font-weight:bold;
+	color:white;
+	background:red;
+	border:none;
+	border-radius:10px;
+}
+.icons{
+	width:50px;
+}
+#logout{
+	text-decoration:none;
+	color:blue;
+	font-size:20px;
+	transition:0.3s;
+}
+#logout:hover{
+	
+	color:black;
+	text-decoration:underline;
+}
